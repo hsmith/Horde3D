@@ -243,4 +243,5 @@ Horde3D-[Bb]uild*
 # Binaries stuff
 ################
 Binaries/*
+Horde3D/Binaries/*
 Horde3D_Log.html
