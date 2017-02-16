@@ -1,4 +1,6 @@
 
 add_subdirectory(Source)
-add_subdirectory(Samples)
+if(HORDE3D_BUILD_SAMPLES)
+    add_subdirectory(Samples)
+endif(HORDE3D_BUILD_SAMPLES)
 add_subdirectory(Bindings)
